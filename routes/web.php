@@ -14,5 +14,31 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('mainFolder/home');
 });
+
+
+Route::get('/Narkotika', function () {
+    return view('desc/Narkotika');
+});
+
+Route::get('/Psikotropika', function () {
+    return view('desc/Psikotropika');
+});
+
+Route::get('/Prekursor', function () {
+    return view('desc/Prekursor');
+});
+
+Route::get('/ObatBebasTerbatas', function () {
+    return view('desc/ObatBebasTerbatas');
+});
+
+Route::get('/ObatBebas', function () {
+    return view('desc/ObatBebas');
+});
+
+Route::get('/ObatKeras', function () {
+    return view('desc/ObatKeras');
+});
+

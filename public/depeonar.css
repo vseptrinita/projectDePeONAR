@@ -1,0 +1,169 @@
+/* GOOGLE FONTS IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@900&family=Poppins:wght@500&family=Viga&display=swap');
+
+
+
+
+/* NAVBAR */
+#navbarMain{
+    background-color: darkgreen;
+    color: white;
+}
+
+.navbar-brand{
+    font-family: 'Nunito', sans-serif;
+}
+
+/* FOOTER */
+.footer_mainHome{
+    background-color: darkgreen;
+    color: white;
+    font-family: 'Poppins';
+   
+    bottom: auto;
+    -width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* NAVBAR MAIN 2 */
+.h1_navbarMain2{
+    color: #215e2c;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/* CARD TITTLE 2 */
+#cardtittle_home2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
+    color: #215e2c;
+    /* background-color: #215e2c;
+    border-radius: 5px;
+    padding: -10px; */
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* CARD TITTLE */
+.card-title{
+    font-size: 10pt;
+}
+
+/*procold.blade*/
+#card_procoldBlade{
+    box-shadow: 0 10px 10px 0 rgba(8, 63, 8, 0.2);
+}
+#h5_card{
+    background-color: #215e2c;
+    border-radius: 1px;
+    color: white;
+    font-size: 1.25em;
+    padding: 5px;
+    
+}
+#li_procold{
+    list-style-type: none;
+}
+
+#h5_liprocold{
+    /* background-color: #215e2c; */
+    /* color: white; */
+    /* border-radius: 4px; */
+    font-family: 'Nunito', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* padding: 5px; */
+    /* padding-right: -10px; */
+}
+
+#h5_liprocold:hover{
+color: goldenrod;
+
+}
+/* barcode */
+#barcode_wrap{
+    border-style: solid;      
+    width: 100px;
+    height: 100px;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* DESKRIPSI OBAT */
+.kandungan{
+    background-color: #215e2c;
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+.peringatan{
+    background-color: #a81c12;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 4px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+.line_title{
+    border-radius: 5px;
+    height: 10px;
+    width: 200px;
+    /* border-color: #a81c12; */
+    background-color: #215e2c;
+}
+.line_title:hover{
+    background-color: goldenrod;
+}
+
+.imgbarcode-wrap{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 250px;
+    height: 250px;
+    /* margin: auto; */
+    border-radius: 20px;
+    /* ini geser imgprocold */
+    margin-left: 200px;
+    margin-top: 60px;
+    margin-right: 80px;
+    justify-content: center;
+} 
+
+
+/*  */
+hr{
+    background-color: #1E0064;
+    border-radius: 50px;
+}
+.footer_mainHome2{
+    background-color: white;
+    color: #1E0064;
+    text-decoration: underline;
+}
+
+
+/* .descrip{
+   
+    margin-right: 200px; 
+} */
+
+/* ini dihapus aja cok */
+/* .row{
+ border: 1px solid red;
+}
+.box{
+    padding: 30px;
+    background:white;
+    text-align: center;
+} */
+/*  */
+
+/* .letakimg_procold{
+    margin-left: 100px;
+} */
